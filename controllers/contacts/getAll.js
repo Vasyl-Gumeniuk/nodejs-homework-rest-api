@@ -9,6 +9,7 @@ const getAll = async (req, res) => {
         { owner, favorite: favorite },
         "-createdAt -updatedAt",
         { skip, limit }).populate("owner", "name email")
+
     res.json(result)
 };
 
