@@ -2,7 +2,7 @@ const register = require('./register');
 const login = require('./login');
 const getCurrent = require('./getCurrent');
 const logout = require('./logout');
-
+const updateAvatar = require('./updateAvatar');
 
 
 module.exports = {
@@ -10,4 +10,5 @@ module.exports = {
     login,
     getCurrent,
     logout,
+    updateAvatar,
 }
